@@ -33,6 +33,10 @@ public sealed class FileInfoImpl : FileSystemInfoImpl<FileInfo>, IWritableFileIn
 	}
 
 	/// <inheritdoc/>
+	public void WriteAllBytes(byte[] data)
+		=> File.WriteAllBytes(this.FileSystemInfo.FullName, data);
+
+	/// <inheritdoc/>
 	public void Delete()
 	{
 		if (this.Exists)

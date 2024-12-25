@@ -12,6 +12,12 @@ public interface IWritableFileInfo : IFileInfo, IWritableFileSystemInfo
 	/// </summary>
 	/// <returns>A new write-only <see cref="Stream"/>.</returns>
 	Stream OpenWrite();
+	
+	/// <summary>
+	/// Writes the given byte array to a file.
+	/// </summary>
+	/// <param name="data">The data to write.</param>
+	void WriteAllBytes(byte[] data);
 }
 
 /// <summary>
