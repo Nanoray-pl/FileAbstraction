@@ -2,6 +2,10 @@
 
 # Release notes
 
+## Upcoming release
+
+* De-nested namespaces.
+
 ## 1.0.0
 Released 25 December 2024.
 

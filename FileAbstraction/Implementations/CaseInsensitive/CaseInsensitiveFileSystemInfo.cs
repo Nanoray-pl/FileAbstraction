@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Nanoray.FileAbstraction.CaseInsensitive;
+namespace Nanoray.FileAbstraction;
 
 /// <summary>
 /// An <see cref="IFileSystemInfo{TFileInfo,TDirectoryInfo}"/> wrapper which makes any file operations case insensitive.

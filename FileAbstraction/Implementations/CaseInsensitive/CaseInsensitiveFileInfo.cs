@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Nanoray.FileAbstraction.CaseInsensitive;
+namespace Nanoray.FileAbstraction;
 
 /// <summary>
 /// An <see cref="IFileInfo{TFileInfo,TDirectoryInfo}"/> wrapper which makes any file operations case insensitive.
